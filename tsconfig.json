@@ -4,7 +4,7 @@
     "lib": ["ES2019"],
     "isolatedModules": true,
     "esModuleInterop": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "target": "ES2019",
