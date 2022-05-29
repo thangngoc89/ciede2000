@@ -1,0 +1,20 @@
+{
+  "name": "loc_hong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "culori": "github:bijela-gora/culori#27701753f0582cf4af44388af68173b65c95ddb4",
+    "papaparse": "^5.3.2",
+    "ts-node": "^10.8.0"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.2",
+    "nodemon": "^2.0.16"
+  }
+}
