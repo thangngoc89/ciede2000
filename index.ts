@@ -42,12 +42,10 @@ async function main() {
     };
   });
 
-  console.log(data);
+  const a = Papa.unparse(data);
+  console.log(a);
 }
 
-function parseFloatComma(s: string) {
-  return parseFloat(s.replace(/\,/g, "."));
-}
 function mkInterface(parse: ParseResult<unknown>) {
   console.log("interface SoMau {");
   console.log(parse.meta.fields?.map((name) => `  "${name}": String;`).join("\n"));
